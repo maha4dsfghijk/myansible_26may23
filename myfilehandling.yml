@@ -1,0 +1,12 @@
+---
+- hosts: 35.165.72.43
+tasks:
+  - include_tasks: myfile.yml
+  - name: i want to install webserver
+apt:
+  name: apache2
+  
+    
+
+
+    
