@@ -1,15 +1,15 @@
 ---
 - hosts: 35.165.72.43
   become: yes
-tasks:
+  tasks:
   - name: install git
-apt:
+  apt:
   name: git
   state: present
   tags: mygit
 
-  - name: install tree
-apt:
+   - name: install tree
+  apt:
   name: tree  
   state: present
   tags: mytree

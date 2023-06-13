@@ -1,0 +1,6 @@
+---
+- name: copy tomcat-user xml file into node side
+  template: 
+       src: templates/mytomcat.j2
+       dest: /opt/tomcat/config/tomcat_user.xml
+
