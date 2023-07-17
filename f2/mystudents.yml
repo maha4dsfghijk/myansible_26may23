@@ -1,0 +1,25 @@
+---
+- mystudents:
+  - name: anil
+    ph.no: 9754398641
+    address: 
+        door: 18-21
+        place: gurumurthy ngr
+        pin: 500037
+
+  - name: sunil
+    ph.no: 8765433260
+    address:
+        door: 22-13
+        place: girinagar
+        pin: 400023
+
+  - name: vynil
+    ph.no: 9749034312
+    address: 
+        door: 12-1-34/1
+        place: karimnagar
+        pin: 500089
+        
+
+    
